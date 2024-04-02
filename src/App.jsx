@@ -1,7 +1,15 @@
+import {RecoilRoot} from 'recoil'
+import {Gallery} from './components/Gallery'
+
 function App() {
 
   return (
-   <div></div>
+   <div>
+    <RecoilRoot>
+    <Gallery></Gallery>
+    </RecoilRoot>
+
+   </div>
   )
 }
 
