@@ -1,8 +1,10 @@
 import { RecoilRoot } from 'recoil'
-import Slider from './componets-s/Slider'
+import Slider from './components/Slider'
+import { Footer } from './components/Footer'
 import React, { useRef, useState } from 'react';
 import { Gallery } from './components/Gallery'
 import { Navbar } from './components/Navbar';
+import { Particle } from './components/Particle';
 
 
 export default function App() {
@@ -10,6 +12,7 @@ export default function App() {
     <div>
       <RecoilRoot>
         {/* <Slider/> */}
+        {/* <Footer/> */}
         {/* <Gallery></Gallery> */}
         {/* <Navbar></Navbar> */}
       </RecoilRoot>

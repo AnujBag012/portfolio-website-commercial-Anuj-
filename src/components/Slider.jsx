@@ -4,11 +4,10 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
-
+import { Particle } from './Particle';
 // Import Swiper default styles
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import ParticleBackground from './ParticleBackground';
 
 
 export default function App() {
@@ -21,8 +20,8 @@ export default function App() {
     };
 
     return (
-        <div className="relative w-screen h-screen pt-28 pb-28">
-        <ParticleBackground/>
+        <div className="relative w-screen h-screen">
+            <Particle></Particle>
             <Swiper
                 ref={swiperRef}
                 className="w-full h-full"
@@ -86,7 +85,7 @@ export default function App() {
                 </SwiperSlide>
             </Swiper>
 
-            <div className="absolute z-10 top-1/2 right-8">
+            <div className="absolute z-50 top-1/2 right-8">
                 <button onClick={() => {
                     handleChangeTransition(1500);
                 }}
@@ -96,7 +95,7 @@ export default function App() {
                     </svg>
                 </button>
             </div>
-            <div className="absolute z-10 top-1/2 left-8">
+            <div className="absolute z-50 top-1/2 left-8">
                 <button onClick={() => {
                     handleChangeTransition(1500);
                 }}
