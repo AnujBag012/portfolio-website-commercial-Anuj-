@@ -1,15 +1,16 @@
-import {RecoilRoot} from 'recoil'
-import {Gallery} from './components/Gallery'
+import { RecoilRoot } from 'recoil'
+import Slider from './componets-s/Slider'
+import { Footer } from './componets-s/Footer'
 
 function App() {
 
   return (
-   <div>
-    <RecoilRoot>
-    <Gallery></Gallery>
-    </RecoilRoot>
-
-   </div>
+    <div>
+      <RecoilRoot>
+        {/* <Slider/> */}
+        <Footer/>
+      </RecoilRoot>
+    </div>
   )
 }
 
