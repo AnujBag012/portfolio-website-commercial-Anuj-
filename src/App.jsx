@@ -5,6 +5,7 @@ import React, { useRef, useState } from 'react';
 import { Gallery } from './components/Gallery'
 import { Navbar } from './components/Navbar';
 import { Particle } from './components/Particle';
+import { Buttonbar } from './components/Buttonbar';
 
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
         {/* <Footer/> */}
         {/* <Gallery></Gallery> */}
         {/* <Navbar></Navbar> */}
+        <Buttonbar></Buttonbar>
       </RecoilRoot>
     </div>
   )
