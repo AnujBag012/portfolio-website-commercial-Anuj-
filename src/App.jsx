@@ -1,16 +1,16 @@
-import {RecoilRoot} from 'recoil'
+import React, { useRef, useState } from 'react';
+import {RecoilRoot} from 'recoil';
 import {Gallery} from './components/Gallery'
+import { Navbar } from './components/Navbar';
 
-function App() {
 
+export default function App() {
   return (
-   <div>
-    <RecoilRoot>
-    <Gallery></Gallery>
-    </RecoilRoot>
-
-   </div>
-  )
+      <div>
+        <RecoilRoot>
+          {/* <Gallery></Gallery> */}
+          {/* <Navbar></Navbar> */}
+        </RecoilRoot>
+      </div>
+  );
 }
-
-export default App

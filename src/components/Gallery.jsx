@@ -1,3 +1,6 @@
+import {Swipe} from './Swipe'
+
+
 export function Gallery() {
     return (
         <div className="grid justify-items-center">
@@ -7,6 +10,7 @@ export function Gallery() {
             <div className="flex-1 border-t border-gray-400"></div>
         </div>
         <div className="py-4 text-gray-700">Cherishing Moments</div>
+        <Swipe></Swipe>
         </div>
 
     )

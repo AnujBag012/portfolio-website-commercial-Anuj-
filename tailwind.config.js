@@ -5,7 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-7px)' },
+        }        
+      },
+      animation: {
+      wiggle: 'wiggle 1.5s ease-in-out infinite',
+    }},
   },
   plugins: [],
 }
