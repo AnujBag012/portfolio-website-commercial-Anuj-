@@ -35,6 +35,6 @@ export function Particle() {
   }
 
   return <></>;
-};
+}
 
 // border-solid border-2 border-sky-500 h-full

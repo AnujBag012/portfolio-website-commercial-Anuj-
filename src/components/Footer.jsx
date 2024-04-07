@@ -1,5 +1,5 @@
 export const Footer = () => {
-    return <div className="flex realtive">
+    return <div className="flex realtive bottom-0">
         <div className="absolute left-0 bottom-0 bg-black w-full h-96 pl-96 pr-96">
             <div id="about" className="">
                 <div className="flex gap-6 pt-4 pb-8">
