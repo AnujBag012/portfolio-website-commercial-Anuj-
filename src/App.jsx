@@ -8,12 +8,30 @@ import { Particle } from './components/Particle';
 import { Buttonbar } from './components/Buttonbar';
 import { Testimonial } from './components/Testimonial';
 import { Infotab } from './components/Infotab';
+import { About } from './components/About';
+import { Form } from './components/Form';
+
 import {ButtonTab} from './components/ButtonTab';
 
 export default function App() {
   return (
     <div>
       <RecoilRoot>
+        <Slider/>
+        <Footer/>
+        <Gallery></Gallery>
+        <Navbar></Navbar>
+        <Buttonbar></Buttonbar>
+        <Testimonial/>
+        <Infotab></Infotab>
+        {/* <Navbar></Navbar> */}
+        {/* <Slider/> */}
+        {/* <Gallery></Gallery> */}
+        {/* <Buttonbar></Buttonbar> */}
+        {/* <Form /> */}
+        {/* <About/> */}
+        {/* <Testimonial/> */}
+        {/* <Footer/> */}
         {/* <Slider/> */}
         {/* <Footer/> */}
         {/* <Gallery></Gallery> */}
