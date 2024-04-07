@@ -54,7 +54,7 @@ export function Swipe() {
                     <img className='relative w-100 h-full' src="https://swiperjs.com/demos/images/nature-4.jpg" />
                 </SwiperSlide>
             </Swiper>
-            <div className="absolute z-10 top-1/2 right-4">
+            <div className="z-10 top-1/2 right-4">
                 <button
                     className="custom-swiper-button-prev bg-gray-400 opacity-40 hover:opacity-100 hover:bg-black rounded-full w-8 h-8 flex justify-center items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2.5" stroke="currentcolor" className="w-6 h-6 text-white">
@@ -62,7 +62,7 @@ export function Swipe() {
                     </svg>
                 </button>
             </div>
-            <div className="absolute z-10 top-1/2 left-4">
+            <div className=" z-10 top-1/2 left-4">
                 <button
                     className="custom-swiper-button-next bg-gray-400 opacity-40 hover:opacity-100 hover:bg-black rounded-full w-8 h-8 flex justify-center items-center pr-1">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2.5" stroke="currentColor" className="w-6 h-6 text-white">

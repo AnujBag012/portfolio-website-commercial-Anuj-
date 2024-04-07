@@ -11,7 +11,7 @@ export function Navbar() {
             </div>
             <div className="flex gap-8 items-center">
                 <a href="#"><div className="text-blue-500 hover:text-blue-400">Home</div></a>
-                <a href="#"><div className="hover:text-slate-500">About</div></a>
+                <a href="#about"><div className="hover:text-slate-500">About</div></a>
                 <Popup trigger={
                 <a href="#">
                     <div className="hover:text-slate-500">Media</div>
