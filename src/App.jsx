@@ -27,10 +27,14 @@ export default function App() {
         {/* <Navbar></Navbar> */}
         {/* <Slider/> */}
         {/* <Gallery></Gallery> */}
+        {/* <Navbar></Navbar> */}
         {/* <Buttonbar></Buttonbar> */}
-        {/* <Form /> */}
-        {/* <About/> */}
         {/* <Testimonial/> */}
+        {/* <Infotab></Infotab> */}
+        {/* <Navbar></Navbar> */}
+        <Form />
+        {/* <About/> */}
+        {/* <Testimonial/>*/}
         {/* <Footer/> */}
         {/* <Slider/> */}
         {/* <Footer/> */}
