@@ -24,26 +24,9 @@ export default function App() {
         <Buttonbar></Buttonbar>
         <Testimonial/>
         <Infotab></Infotab> */}
-        {/* <Navbar></Navbar> */}
-        {/* <Slider/> */}
-        {/* <Gallery></Gallery> */}
-        {/* <Navbar></Navbar> */}
-        {/* <Buttonbar></Buttonbar> */}
-        {/* <Testimonial/> */}
-        {/* <Infotab></Infotab> */}
-        {/* <Navbar></Navbar> */}
-        <Form />
+        {/* <Form /> */}
         {/* <About/> */}
-        {/* <Testimonial/>*/}
-        {/* <Footer/> */}
-        {/* <Slider/> */}
-        {/* <Footer/> */}
-        {/* <Gallery></Gallery> */}
-        {/* <Navbar></Navbar> */}
-        <Buttonbar></Buttonbar>
-        {/* <Testimonial/> */}
-        {/* <Infotab></Infotab> */}
-        {/* <ButtonTab></ButtonTab> */}
+        <ButtonTab></ButtonTab>
       </RecoilRoot>
     </div>
   )
