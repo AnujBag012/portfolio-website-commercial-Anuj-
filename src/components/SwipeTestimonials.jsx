@@ -6,14 +6,10 @@ import { Autoplay } from 'swiper/modules';
 
 export default function SwipeTestimonials() {
   return (
-    <div className='relative mb-8'>
+    <div className='relative mb-14'>
       <Swiper
         slidesPerView={1}
         spaceBetween={1}
-        // pagination={{
-        //   clickable: true,
-        //   el: '.swiper-pagination'
-        // }}
         breakpoints={{
           '@0.00': {
             slidesPerView: 1,

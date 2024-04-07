@@ -12,6 +12,7 @@ import { About } from './components/About';
 import { Form } from './components/Form';
 
 import { ButtonTab } from './components/ButtonTab';
+import { ButtonTab } from './components/ButtonTab';
 
 export default function App() {
   return (
@@ -19,7 +20,13 @@ export default function App() {
       <RecoilRoot>
         <Navbar></Navbar>
         <Slider />
+        <Slider />
         <Buttonbar></Buttonbar>
+        <About />
+        <Infotab></Infotab>
+        <Testimonial />
+        <Form />
+        <Gallery></Gallery>
         <div className="about" id='about'>
         <About />
         </div>
@@ -28,6 +35,7 @@ export default function App() {
         <Form />
         <Gallery></Gallery>
         <ButtonTab></ButtonTab>
+        <Footer />
         <Footer />
       </RecoilRoot>
     </div>
