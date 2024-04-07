@@ -1,7 +1,7 @@
 export function ButtonTab() {
     return (
         <div className="flex justify-center mt-8">
-            <div className="bg-blue-950 md:h-96 lg:h-96 h-screen w-screen flex-col justify-center items-center p-8">
+            <div className="bg-slate-900 md:h-96 lg:h-96 h-screen w-screen flex-col justify-center items-center p-8">
                 <div className="flex pb-2 justify-center items-center">
                     <div className="border-gray-500 w-96 border"></div>
                     <div className="text-5xl ml-4 mr-4 text-white">
@@ -9,7 +9,7 @@ export function ButtonTab() {
                     </div>
                     <div className="border-gray-500 w-96 border"></div>
                 </div>
-                <div className="flex justify-center items-center text-white text-2xl pb-14">
+                <div className="flex justify-center items-center text-white text-2xl pb-8">
                     FEATURED
                 </div>
                 <div className="flex justify-center text-white gap-8">

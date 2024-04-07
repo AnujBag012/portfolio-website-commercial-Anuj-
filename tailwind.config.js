@@ -28,11 +28,6 @@ export default {
         wiggle: 'wiggle 1.5s ease-in-out infinite',
       }
     },
-    // colors: {
-    //   blue: {
-    //     100: '#1da1f2'
-    //   }
-    // }
   },
   plugins: [],
 }
