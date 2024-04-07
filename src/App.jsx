@@ -11,6 +11,7 @@ import { Infotab } from './components/Infotab';
 import { About } from './components/About';
 import { Form } from './components/Form';
 
+import {ButtonTab} from './components/ButtonTab';
 
 export default function App() {
   return (
@@ -27,6 +28,14 @@ export default function App() {
         {/* <About/> */}
         {/* <Testimonial/>*/}
         {/* <Footer/> */}
+        {/* <Slider/> */}
+        {/* <Footer/> */}
+        {/* <Gallery></Gallery> */}
+        {/* <Navbar></Navbar> */}
+        {/* <Buttonbar></Buttonbar> */}
+        {/* <Testimonial/> */}
+        {/* <Infotab></Infotab> */}
+        <ButtonTab></ButtonTab>
       </RecoilRoot>
     </div>
   )
