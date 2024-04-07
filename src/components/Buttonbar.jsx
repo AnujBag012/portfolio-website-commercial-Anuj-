@@ -1,4 +1,4 @@
-import './buttonbar.css'; 
+import './buttonbar.css';
 
 export function Buttonbar() {
     return (
