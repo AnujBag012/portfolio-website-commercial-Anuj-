@@ -11,30 +11,22 @@ import { Infotab } from './components/Infotab';
 import { About } from './components/About';
 import { Form } from './components/Form';
 
-import {ButtonTab} from './components/ButtonTab';
+import { ButtonTab } from './components/ButtonTab';
 
 export default function App() {
   return (
     <div>
       <RecoilRoot>
-        {/* <Slider/>
-        <Footer/>
-        <Gallery></Gallery>
         <Navbar></Navbar>
+        <Slider />
         <Buttonbar></Buttonbar>
-        <Testimonial/>
-        <Infotab></Infotab> */}
-        {/* <Form /> */}
-        {/* <Slider/> */}
-        {/* <Gallery></Gallery> */}
-        {/* <Navbar></Navbar> */}
-        {/* <Buttonbar></Buttonbar> */}
-        {/* <Testimonial/> */}
-        {/* <Infotab></Infotab> */}
-        {/* <Navbar></Navbar> */}
-        {/* <Form /> */}
-        {/* <About/> */}
+        <About />
+        <Infotab></Infotab>
+        <Testimonial />
+        <Form />
+        <Gallery></Gallery>
         <ButtonTab></ButtonTab>
+        <Footer />
       </RecoilRoot>
     </div>
   )
