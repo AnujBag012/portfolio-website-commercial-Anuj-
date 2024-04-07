@@ -8,19 +8,20 @@ import { Particle } from './components/Particle';
 import { Buttonbar } from './components/Buttonbar';
 import { Testimonial } from './components/Testimonial';
 import { Infotab } from './components/Infotab';
-
+import {ButtonTab} from './components/ButtonTab';
 
 export default function App() {
   return (
     <div>
       <RecoilRoot>
-        <Slider/>
-        <Footer/>
-        <Gallery></Gallery>
-        <Navbar></Navbar>
-        <Buttonbar></Buttonbar>
-        <Testimonial/>
-        <Infotab></Infotab>
+        {/* <Slider/> */}
+        {/* <Footer/> */}
+        {/* <Gallery></Gallery> */}
+        {/* <Navbar></Navbar> */}
+        {/* <Buttonbar></Buttonbar> */}
+        {/* <Testimonial/> */}
+        {/* <Infotab></Infotab> */}
+        <ButtonTab></ButtonTab>
       </RecoilRoot>
     </div>
   )
