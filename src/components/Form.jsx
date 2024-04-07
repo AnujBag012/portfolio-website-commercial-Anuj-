@@ -16,9 +16,9 @@ export const Form = () => {
     }, []);
 
     return (
-        <div className="relative h-screen overflow-hidden  bg-[url('/bg-1.jpg')]  mb-96">
+        <div className="relative h-screen overflow-hidden  mb-96">
             <div
-                className="absolute inset-0 z-0"
+                className="absolute inset-0 z-0 bg-[url('/bg-1.jpg')]"
                 style={{
                     backgroundSize: 'cover',
                     transform: `translateY(${scrollPosition * 0.5}px)`,
