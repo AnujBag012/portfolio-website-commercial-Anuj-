@@ -2,7 +2,7 @@
 export const Form = () => {
 
     return (
-        <div className=" bg-[url('/bg-1.jpg')] bg-[url('/bg-1.jpg')] bg-center pb-20 mb-20">
+        <div className=" bg-[url('/bg-1.jpg')] bg-[url('/bg-1.jpg')] bg-center pb-20 mb-20" id="form">
             <div className='flex items-center justify-center pt-4'>
                 <div className="border-gray-700 w-56 border"></div>
                 <div className='ml-4 mr-4 text-white text-5xl'>Be a Part of the Family</div>

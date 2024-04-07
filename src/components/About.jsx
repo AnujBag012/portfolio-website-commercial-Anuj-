@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 
 export const About = () => {
-    const [isPlaying, setIsPlaying] = useState(false);
+    const [, setIsPlaying] = useState(false);
     // const [currentTime, setCurrentTime] = useState(0);
     // const [duration, setDuration] = useState(0);
     const videoRef = useRef(null);
@@ -38,7 +38,7 @@ export const About = () => {
 
     return (
         <div>
-            <div className='text-center'>
+            <div className='text-center mt-20' id='about'>
                 <div className="flex justify-center items-center text-5xl font-medium pt-4">
                     <div className="bg-gradient-to-r to-blue-500 from-white w-52 h-1"></div>
                     <div className='ml-3 mr-3'>Navigating the Digital Frontier Fueled by Affiliate partnerships</div>

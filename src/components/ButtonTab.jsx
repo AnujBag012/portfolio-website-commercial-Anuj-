@@ -1,6 +1,6 @@
 export function ButtonTab() {
-    return (
-        <div className="flex justify-center mt-8">
+    return ( 
+        <div className="flex justify-center mt-8" id="services">
             <div className="bg-slate-900 md:h-96 lg:h-96 h-screen w-screen flex-col justify-center items-center p-8">
                 <div className="flex pb-2 justify-center items-center">
                     <div className="border-gray-500 w-96 border"></div>
@@ -14,8 +14,8 @@ export function ButtonTab() {
                 </div>
                 <div className="flex justify-center text-white gap-8">
                     <div className=" flex-col gap-3">
-                        <a href="#" className="relative mb-5 w-72 group h-60 block rounded-md bg-gradient-to-r from-[#1da1f2] to-blue-600">
-                            <div className="relative pt-8 pb-8 p-4 z-20 flex justify-between  rounded-md">
+                        <a href="#" className="mb-5 w-72 group h-60 block rounded-md bg-gradient-to-r from-[#1da1f2] to-blue-600">
+                            <div className=" pt-8 pb-8 p-4 flex justify-between  rounded-md">
                                 <div className="flex flex-col ml-3">
                                     <div className="flex h-12">
                                         <div className="pr-4">
@@ -29,8 +29,8 @@ export function ButtonTab() {
                                 </div>
                             </div>
                         </a>
-                        <a href="#" className="relative mb-5 w-72 group h-52 block rounded-md bg-gradient-to-r from-[#1da1f2] to-blue-600">
-                            <div className="relative pt-8 pb-8 p-4 z-20 flex justify-between  rounded-md">
+                        <a href="#" className="mb-5 w-72 group h-52 block rounded-md bg-gradient-to-r from-[#1da1f2] to-blue-600">
+                            <div className=" pt-8 pb-8 p-4 flex justify-between  rounded-md">
                                 <div className="flex flex-col ml-3">
                                     <div className="flex h-12">
                                         <div className="pr-4">
@@ -46,8 +46,8 @@ export function ButtonTab() {
                         </a>
                     </div>
                     <div>
-                        <a href="#" className="relative mb-5 w-72 group h-60 block rounded-md bg-gradient-to-r from-[#1da1f2] to-blue-600">
-                            <div className="relative pt-8 pb-8 p-4 z-20 flex justify-between  rounded-md">
+                        <a href="#" className="mb-5 w-72 group h-60 block rounded-md bg-gradient-to-r from-[#1da1f2] to-blue-600">
+                            <div className=" pt-8 pb-8 p-4 flex justify-between  rounded-md">
                                 <div className="flex flex-col ml-3">
                                     <div className="flex h-12">
                                         <div className="pr-4">
@@ -61,8 +61,8 @@ export function ButtonTab() {
                                 </div>
                             </div>
                         </a>
-                        <a href="#" className="relative mb-5 w-72 group h-52 block rounded-md bg-gradient-to-r from-[#1da1f2] to-blue-600">
-                            <div className="relative pt-8 pb-8 p-4 z-20 flex justify-between  rounded-md">
+                        <a href="#" className="mb-5 w-72 group h-52 block rounded-md bg-gradient-to-r from-[#1da1f2] to-blue-600">
+                            <div className=" pt-8 pb-8 p-4 flex justify-between  rounded-md">
                                 <div className="flex flex-col ml-3">
                                     <div className="flex h-12">
                                         <div className="pr-4">
@@ -78,8 +78,8 @@ export function ButtonTab() {
                         </a>
                     </div>
                     <div>
-                        <a href="#" className="relative mb-5 w-72 group h-60 block rounded-md bg-gradient-to-r from-[#1da1f2] to-blue-600">
-                            <div className="relative pt-8 pb-8 p-4 z-20 flex justify-between  rounded-md">
+                        <a href="#" className="mb-5 w-72 group h-60 block rounded-md bg-gradient-to-r from-[#1da1f2] to-blue-600">
+                            <div className=" pt-8 pb-8 p-4 flex justify-between  rounded-md">
                                 <div className="flex flex-col ml-3">
                                     <div className="flex h-12">
                                         <div className="pr-4">
@@ -93,8 +93,8 @@ export function ButtonTab() {
                                 </div>
                             </div>
                         </a>
-                        <a href="#" className="relative mb-5 w-72 group h-52 block rounded-md bg-gradient-to-r from-[#1da1f2] to-blue-600">
-                            <div className="relative pt-8 pb-8 p-4 z-20 flex justify-between  rounded-md">
+                        <a href="#" className="mb-5 w-72 group h-52 block rounded-md bg-gradient-to-r from-[#1da1f2] to-blue-600">
+                            <div className=" pt-8 pb-8 p-4 flex justify-between  rounded-md">
                                 <div className="flex flex-col ml-3">
                                     <div className="flex h-12">
                                         <div className="pr-4">

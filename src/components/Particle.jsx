@@ -23,7 +23,7 @@ export function Particle() {
 
   if (init) {
     return (
-      <div className="absolute inset-0 flex overflow-hidden z-50 ">
+      <div className="absolute inset-0 flex overflow-hidden z-10 ">
         <Particles 
           id="tsparticles"
           particlesLoaded={particlesLoaded}
