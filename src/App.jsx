@@ -6,6 +6,7 @@ import { Gallery } from './components/Gallery'
 import { Navbar } from './components/Navbar';
 import { Particle } from './components/Particle';
 import { Buttonbar } from './components/Buttonbar';
+import { Testimonial } from './components/Testimonial';
 import { Infotab } from './components/Infotab';
 
 
@@ -18,6 +19,7 @@ export default function App() {
         <Gallery></Gallery>
         <Navbar></Navbar>
         <Buttonbar></Buttonbar>
+        <Testimonial/>
         <Infotab></Infotab>
       </RecoilRoot>
     </div>
