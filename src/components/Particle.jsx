@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
-import particleConfig from './particles.json'; // Adjust the path as necessary
+import { loadSlim } from "@tsparticles/slim"; 
+import particleConfig from './particles.json'; 
 
 export function Particle() {
   const [init, setInit] = useState(false);
@@ -16,7 +16,6 @@ export function Particle() {
   }, []);
 
   const particlesLoaded = (container) => {
-    console.log(container);
   };
 
   const options = useMemo(() => particleConfig, []);
@@ -24,7 +23,7 @@ export function Particle() {
 
   if (init) {
     return (
-      <div className="absolute inset-0 flex justify-center items-center z-50 overflow-hidden">
+      <div className="absolute inset-0 flex overflow-hidden z-50 ">
         <Particles 
           id="tsparticles"
           particlesLoaded={particlesLoaded}
@@ -37,4 +36,3 @@ export function Particle() {
   return <></>;
 };
 
-// border-solid border-2 border-sky-500 h-full
