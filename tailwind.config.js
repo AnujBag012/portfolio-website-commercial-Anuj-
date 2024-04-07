@@ -13,20 +13,26 @@ export default {
       '3xl': '1.953rem',
       '4xl': '2.441rem',
       '5xl': '3.052rem',
-      '6xl':'70px',
-      '7xl':'100px',
-      '9xl':'200px'
+      '6xl': '70px',
+      '7xl': '100px',
+      '9xl': '200px'
     },
     extend: {
       keyframes: {
         wiggle: {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%': { transform: 'translateY(-7px)' },
-        }        
+        }
       },
       animation: {
-      wiggle: 'wiggle 1.5s ease-in-out infinite',
-    }},
+        wiggle: 'wiggle 1.5s ease-in-out infinite',
+      }
+    },
+    // colors: {
+    //   blue: {
+    //     100: '#1da1f2'
+    //   }
+    // }
   },
   plugins: [],
 }

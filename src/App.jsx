@@ -24,7 +24,7 @@ export default function App() {
         {/* <Testimonial/> */}
         {/* <Infotab></Infotab> */}
         {/* <Navbar></Navbar> */}
-        <Form />
+        {/* <Form /> */}
         {/* <About/> */}
         {/* <Testimonial/>*/}
         {/* <Footer/> */}
