@@ -5,7 +5,7 @@ export function ButtonTab() {
                 <div className="flex pb-2 justify-center items-center">
                     <div className="border-gray-500 w-96 border"></div>
                     <div className="text-5xl ml-4 mr-4 text-white">
-                        SERVICES
+                        Services
                     </div>
                     <div className="border-gray-500 w-96 border"></div>
                 </div>
