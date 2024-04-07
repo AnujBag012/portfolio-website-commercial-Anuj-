@@ -17,13 +17,13 @@ export default function App() {
   return (
     <div>
       <RecoilRoot>
-        <Slider/>
+        {/* <Slider/>
         <Footer/>
         <Gallery></Gallery>
         <Navbar></Navbar>
         <Buttonbar></Buttonbar>
         <Testimonial/>
-        <Infotab></Infotab>
+        <Infotab></Infotab> */}
         {/* <Navbar></Navbar> */}
         {/* <Slider/> */}
         {/* <Gallery></Gallery> */}
@@ -36,10 +36,10 @@ export default function App() {
         {/* <Footer/> */}
         {/* <Gallery></Gallery> */}
         {/* <Navbar></Navbar> */}
-        {/* <Buttonbar></Buttonbar> */}
+        <Buttonbar></Buttonbar>
         {/* <Testimonial/> */}
         {/* <Infotab></Infotab> */}
-        <ButtonTab></ButtonTab>
+        {/* <ButtonTab></ButtonTab> */}
       </RecoilRoot>
     </div>
   )
