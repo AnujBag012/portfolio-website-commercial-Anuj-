@@ -5,7 +5,7 @@ export const Testimonial = () => {
         <div className="relative mb-16" id="testimonials">
             <div
                 className="absolute inset-0 bg-cover bg-center bg-white"
-                style={{ backgroundImage: "url('https://plus.unsplash.com/premium_photo-1661297516412-e9eb1fc3e317?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2hpdGUlMjBiYWNrZ3JvdW5kcyUyMGRlc2lnbnMlMjBkZXNrb3B8ZW58MHx8MHx8fDA%3D')" }}
+                style={{ backgroundImage: "url('/testimonialBg.avif')" }}
             />
             <div className="relative">
                 <div className="p-3">

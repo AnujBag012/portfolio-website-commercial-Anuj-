@@ -53,7 +53,7 @@ export const About = () => {
                     <video
                         className=' w-full h-full'
                         ref={videoRef}
-                        src="AboutVedio.mp4"
+                        src="https://res.cloudinary.com/dgp2hrhld/video/upload/v1712573607/AboutVedio_e8bdqs.mp4"
                         controls={true}
                         muted
                         playsInline

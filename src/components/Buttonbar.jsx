@@ -3,7 +3,7 @@ import './buttonbar.css';
 export function Buttonbar() {
     return (
         <div className="flex justify-center mt-8" id='buttonbar'>
-            <div className="bg-[url('/bg-1.jpg')] h-20 w-screen bg-contain flex justify-center">
+            <div className="bg-[url('https://asset.cloudinary.com/dgp2hrhld/7a9e9c17bb0c56bcbdf4e8cf8a7e7672')] h-20 w-screen bg-contain flex justify-center">
                 <div className="flex text-white gap-3 p-4 ">
                     <a href="#" className="relative mb-5 w-52 group h-28 block bg-no-repeat bg-cover bg-center overflow-hidden rounded-md" style={{ backgroundImage: "url('/image--1.jpg')" }}>
                         <div className="overlay absolute inset-0"></div>

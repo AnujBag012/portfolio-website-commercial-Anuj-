@@ -8,7 +8,7 @@ export function Gallery() {
             <div className="flex-1 border-t border-gray-400"></div>
             <div className="px-4 text-4xl">Gallery</div>
             <div className="py-4 text-gray-700">Cherishing Moments</div>
-            <div className='pb-[750px]'><Swipe/></div>
+            <div className='pb-96'><Swipe/></div>
         </div>
        
         </div>

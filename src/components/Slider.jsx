@@ -26,60 +26,40 @@ export default function App() {
                 ref={swiperRef}
                 className="w-full h-full"
                 dir="rtl"
+                grabCursor={true}
                 navigation={{
                     nextEl: '.custom-swiper-button-prev',
                     prevEl: '.custom-swiper-button-next',
                 }}
                 autoplay={{
                     delay: '3000',
-                    disableOnInteraction: true
+                    disableOnInteraction: false
                 }}
                 loop={true}
                 modules={[Autoplay, Navigation, Pagination]}
             >
                 <SwiperSlide className='flex relative'>
-                    <img src="image1.jpg" alt="slide1" className='object-cover h-full w-full' />
+                    <img src="https://res.cloudinary.com/dgp2hrhld/image/upload/v1712573522/image1_sgsc4h.jpg" alt="slide1" className='object-cover h-full w-full' />
                     <div className='flex flex-col absolute right-28 bottom-28 right-10 z-10 text-white text-2xl'>
                         <div className=''>
                             <img className='w-full h-full' src='quote1.png' alt="quote1" />
-                        </div>
-                        <div className='mr-10'>
-                            <button className=''>
-                                <div className='bg-gradient-to-t from-gray-600 to-gray-700 hover:to-gray-400 p-2 pl-4 pr-4 rounded text-lg'>
-                                    Be a part of Community
-                                </div>
-                            </button>
                         </div>
                     </div>
                 </SwiperSlide>
 
                 <SwiperSlide className='flex relative'>
-                    <img src="image2.jpg" alt='slide2' className='object-cover h-full w-full' />
+                    <img src="https://res.cloudinary.com/dgp2hrhld/image/upload/v1712573557/image2_pnwohu.jpg" alt='slide2' className='object-cover h-full w-full' />
                     <div className='flex flex-col absolute top-28 right-36 z-10 text-white text-2xl'>
                         <div className="">
                             <img className='w-6/12 h-5/12' src='quote2.png' alt="quote1" />
                         </div>
-                        <div className='absolute bottom-24 right-24'>
-                            <button className=''>
-                                <div className='bg-gradient-to-t from-gray-600 to-gray-700 hover:to-gray-400 p-2 pl-6 pr-6 rounded'>
-                                    Be a part of Community 
-                                </div>
-                            </button>
-                        </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className='flex justify-center relative'>
-                    <img src="image3.jpg" alt='slide3' className='object-cover h-full w-full' />
+                    <img src="https://res.cloudinary.com/dgp2hrhld/image/upload/v1712573559/image3_igus4e.jpg" alt='slide3' className='object-cover h-full w-full' />
                     <div className='flex flex-col absolute top-16 right-20 left-0 z-10 text-white text-2xl'>
                         <div className=''>
                             <img className='w-5/12 h-5/12' src='quote3.png' alt="quote1" />
-                        </div>
-                        <div className='mr-60'>
-                            <button>
-                                <div className='bg-gradient-to-t from-gray-600 to-gray-700 hover:to-gray-400 p-2 pl-6 pr-6 rounded'>
-                                    Be a part of Community
-                                </div>
-                            </button>
                         </div>
                     </div>
                 </SwiperSlide>
