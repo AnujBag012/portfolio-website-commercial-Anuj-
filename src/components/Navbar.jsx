@@ -3,7 +3,7 @@ import 'reactjs-popup/dist/index.css';
 
 export function Navbar() {
     return (
-        <div className="flex justify-around mt-4 mb-4 items-center">
+        <div className="sticky z-10 top-0 bg-white flex justify-around p-4 pb-4 items-center">
             <div className="flex gap-2 text-2xl font-medium">
                 <div>DUMMY</div>
                 <div className="text-blue-500">NAME</div>

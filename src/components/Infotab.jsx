@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+// import React, { useRef, useState } from 'react';
 import CountUp from 'react-countup';
 import { Particle } from './Particle';
 export function Infotab() {
