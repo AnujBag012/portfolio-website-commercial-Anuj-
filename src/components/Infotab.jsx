@@ -7,6 +7,7 @@ export function Infotab() {
         <div className='flex justify-center h-fit m-4 mt-14'>
             <div className='p-8 relative '>
                 <Particle />
+                <CountUp end={100} />
                 <CountUp
                     start={0}
                     end={22}
