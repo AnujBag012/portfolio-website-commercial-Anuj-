@@ -7,18 +7,18 @@ export function Infotab() {
         <div className='flex justify-center h-fit m-4 mt-14'>
             <div className='p-8 relative '>
                 <Particle />
-                <CountUp end={100} />
+                {/* <CountUp end={100} /> */}
                 <CountUp
                     start={0}
                     end={22}
                     duration={2.75}
                     separator=" "
                     decimals={0}>
-                    {/* {({ countUpRef }) => (
+                    {({ countUpRef }) => (
                         <div>
-                            <span className="text-9xl drop-shadow-lg font-bold text-blue-400 h-24 flex items-center justify-center" ref={countUpRef} />
+                            <span className="text-9xl drop-shadow-lg font-bold text-blue-400 h-24 " ref={countUpRef} />
                         </div>
-                    )} */}
+                    )}
                 </CountUp>
             </div>
             <div className="p-2">
