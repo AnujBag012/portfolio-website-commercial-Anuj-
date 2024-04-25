@@ -14,11 +14,11 @@ export function Infotab() {
                     duration={2.75}
                     separator=" "
                     decimals={0}>
-                    {({ countUpRef }) => (
+                    {/* {({ countUpRef }) => (
                         <div>
                             <span className="text-9xl drop-shadow-lg font-bold text-blue-400 h-24 flex items-center justify-center" ref={countUpRef} />
                         </div>
-                    )}
+                    )} */}
                 </CountUp>
             </div>
             <div className="p-2">
