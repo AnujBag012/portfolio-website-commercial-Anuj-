@@ -8,16 +8,15 @@ export function Infotab() {
             <div className='p-8 relative '>
                 <Particle />
                 {/* <CountUp end={100} /> */}
-                <CountUp
-                    start={0}
-                    end={22}
-                    duration={2.75}
-                    separator=" "
-                    decimals={0}>
-                    {({ countUpRef }) => (
-                        <span className="text-9xl drop-shadow-lg font-bold text-blue-400 h-24 flex items-center justify-center" ref={countUpRef} />
-                    )}
-                </CountUp>
+                <span className="text-9xl drop-shadow-lg font-bold text-blue-400 h-24 flex items-center justify-center" >
+                    <CountUp
+                        start={0}
+                        end={22}
+                        duration={2.75}
+                        separator=" "
+                        decimals={0}>
+                    </CountUp>
+                </span>
 
             </div>
             <div className="p-2">
