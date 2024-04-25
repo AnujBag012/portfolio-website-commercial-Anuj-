@@ -33,71 +33,73 @@ export function Infotab() {
             </div>
             <div className='flex w-1/3 h-96 '>
                 <div className='flex-col justify-center'>
-                    <CountUp
-                        start={0}
-                        end={22}
-                        duration={2.75}
-                        separator=" "
-                        prefix=""
-                        suffix="+"
-                        decimals={0}>
-                        {({ countUpRef }) => (
-                            <div className='flex-col justify-center items-center'>
-                                <span className="text-6xl drop-shadow-lg font-normal text-slate-500 h-24 flex items-center justify-center" ref={countUpRef} />
-                                <div className='text-xl font-normal text-slate-600 ml-12 mt-4'>Countries</div>
-                            </div>
-                        )}
-                    </CountUp>
+
+                    <div className='flex-col justify-center items-center'>
+                        <span className="text-6xl drop-shadow-lg font-normal text-slate-500 h-24 flex items-center justify-center">
+                            <CountUp
+                                start={0}
+                                end={22}
+                                duration={2.75}
+                                separator=" "
+                                prefix=""
+                                suffix="+"
+                                decimals={0}>
+                            </CountUp>
+                        </span>
+                        <div className='text-xl font-normal text-slate-600 ml-12 mt-4'>Countries</div>
+                    </div>
+
                     <div className='border border-slate-400 mx-2'></div>
-                    <CountUp
-                        start={0}
-                        end={4.4}
-                        duration={2.75}
-                        separator=" "
-                        prefix=""
-                        suffix="M+"
-                        decimals={1}>
-                        {({ countUpRef }) => (
-                            <div>
-                                <span className="text-6xl drop-shadow-lg font-normal text-slate-500 h-24 flex items-center justify-center" ref={countUpRef} />
-                                <div className='text-xl font-normal text-slate-600 ml-12 mt-4'>Participants</div>
-                            </div>
-                        )}
-                    </CountUp>
+
+                    <div>
+                        <span className="text-6xl drop-shadow-lg font-normal text-slate-500 h-24 flex items-center justify-center">                    <CountUp
+                            start={0}
+                            end={4.4}
+                            duration={2.75}
+                            separator=" "
+                            prefix=""
+                            suffix="M+"
+                            decimals={1}>
+                        </CountUp>
+                        </span>
+                        <div className='text-xl font-normal text-slate-600 ml-12 mt-4'>Participants</div>
+                    </div>
+
                 </div>
                 <div className='border border-slate-400 mx-2 h-80'></div>
                 <div>
-                    <CountUp
-                        start={0}
-                        end={1600}
-                        duration={2.75}
-                        separator=","
-                        prefix=""
-                        suffix="+"
-                        decimals={0}>
-                        {({ countUpRef }) => (
-                            <div className=' grid grid-cols-1'>
-                                <span className="text-6xl drop-shadow-lg font-normal text-slate-500 h-24 flex items-center justify-center" ref={countUpRef} />
-                                <div className='text-xl font-normal text-slate-600 ml-12 mt-4'>Workshops</div>
-                            </div>
-                        )}
-                    </CountUp>
+
+                    <div className=' grid grid-cols-1'>
+                        <span className="text-6xl drop-shadow-lg font-normal text-slate-500 h-24 flex items-center justify-center">
+                            <CountUp
+                                start={0}
+                                end={1600}
+                                duration={2.75}
+                                separator=","
+                                prefix=""
+                                suffix="+"
+                                decimals={0}>
+                            </CountUp></span>
+                        <div className='text-xl font-normal text-slate-600 ml-12 mt-4'>Workshops</div>
+                    </div>
+
                     <div className='border border-slate-400 mx-2'></div>
-                    <CountUp
-                        start={0}
-                        end={3800}
-                        duration={2.75}
-                        separator=","
-                        prefix=""
-                        suffix="+"
-                        decimals={0}>
-                        {({ countUpRef }) => (
-                            <div>
-                                <span className="text-6xl drop-shadow-lg font-normal text-slate-500 h-24 flex items-center justify-center" ref={countUpRef} />
-                                <div className='text-xl font-normal text-slate-600 ml-12 mt-4'>Events</div>
-                            </div>
-                        )}
-                    </CountUp>
+
+                    <div>
+                        <span className="text-6xl drop-shadow-lg font-normal text-slate-500 h-24 flex items-center justify-center" >
+                            <CountUp
+                                start={0}
+                                end={3800}
+                                duration={2.75}
+                                separator=","
+                                prefix=""
+                                suffix="+"
+                                decimals={0}>
+                            </CountUp>
+                        </span>
+                        <div className='text-xl font-normal text-slate-600 ml-12 mt-4'>Events</div>
+                    </div>
+
                 </div>
             </div>
         </div>
