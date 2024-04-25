@@ -15,7 +15,7 @@ export function Infotab() {
                     decimals={0} >
                     {({ countUpRef }) => (
                         <div>
-                            <span className="text-9xl drop-shadow-lg font-bold text-blue-400 h-24 flex items-center justify-center" ref={countUpRef} />
+                            <span className="text-9xl drop-shadow-lg font-bold text-red-400 h-24 flex items-center justify-center" ref={countUpRef} />
                         </div>
                     )}
                 </CountUp>
